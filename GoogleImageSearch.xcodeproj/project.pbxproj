@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56548145A57E46E3A6707962 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF6A55D1FC24FBDB3C652EE /* libPods.a */; };
 		6577B17319F70801003543C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B17219F70801003543C3 /* main.m */; };
 		6577B17619F70801003543C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B17519F70801003543C3 /* AppDelegate.m */; };
-		6577B17919F70801003543C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B17819F70801003543C3 /* ViewController.m */; };
 		6577B17C19F70801003543C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6577B17A19F70801003543C3 /* Main.storyboard */; };
 		6577B17E19F70801003543C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6577B17D19F70801003543C3 /* Images.xcassets */; };
 		6577B18119F70801003543C3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6577B17F19F70801003543C3 /* LaunchScreen.xib */; };
 		6577B18D19F70801003543C3 /* GoogleImageSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B18C19F70801003543C3 /* GoogleImageSearchTests.m */; };
+		6577B19819F70BEF003543C3 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B19719F70BEF003543C3 /* SearchViewController.m */; };
+		6577B19B19F70C35003543C3 /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B19A19F70C35003543C3 /* PhotoCollectionViewController.m */; };
+		6577B19E19F70D9E003543C3 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B19D19F70D9E003543C3 /* ImageCell.m */; };
+		6577B1A119F7131B003543C3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6577B19F19F7131B003543C3 /* Podfile */; };
+		6577B1A219F7131B003543C3 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6577B1A019F7131B003543C3 /* TemplateIcon2x.png */; };
+		6577B1A519F713FB003543C3 /* PhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B1A419F713FB003543C3 /* PhotoPickerViewController.m */; };
+		6577B1A819F72683003543C3 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B1A719F72683003543C3 /* DetailViewController.m */; };
+		6577B1AB19F727D0003543C3 /* ImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B1AA19F727D0003543C3 /* ImageController.m */; };
+		6577B1B019F72B28003543C3 /* PresentDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B1AD19F72B28003543C3 /* PresentDetailTransition.m */; };
+		6577B1B119F72B28003543C3 /* DismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6577B1AF19F72B28003543C3 /* DismissDetailTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +42,32 @@
 		6577B17219F70801003543C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6577B17419F70801003543C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6577B17519F70801003543C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6577B17719F70801003543C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6577B17819F70801003543C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6577B17B19F70801003543C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6577B17D19F70801003543C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6577B18019F70801003543C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6577B18619F70801003543C3 /* GoogleImageSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleImageSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6577B18B19F70801003543C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6577B18C19F70801003543C3 /* GoogleImageSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleImageSearchTests.m; sourceTree = "<group>"; };
+		6577B19619F70BEF003543C3 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		6577B19719F70BEF003543C3 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		6577B19919F70C35003543C3 /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewController.h; sourceTree = "<group>"; };
+		6577B19A19F70C35003543C3 /* PhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewController.m; sourceTree = "<group>"; };
+		6577B19C19F70D9E003543C3 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		6577B19D19F70D9E003543C3 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		6577B19F19F7131B003543C3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		6577B1A019F7131B003543C3 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		6577B1A319F713FB003543C3 /* PhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoPickerViewController.h; sourceTree = "<group>"; };
+		6577B1A419F713FB003543C3 /* PhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerViewController.m; sourceTree = "<group>"; };
+		6577B1A619F72683003543C3 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6577B1A719F72683003543C3 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6577B1A919F727D0003543C3 /* ImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageController.h; sourceTree = "<group>"; };
+		6577B1AA19F727D0003543C3 /* ImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageController.m; sourceTree = "<group>"; };
+		6577B1AC19F72B28003543C3 /* PresentDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentDetailTransition.h; sourceTree = "<group>"; };
+		6577B1AD19F72B28003543C3 /* PresentDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailTransition.m; sourceTree = "<group>"; };
+		6577B1AE19F72B28003543C3 /* DismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissDetailTransition.h; sourceTree = "<group>"; };
+		6577B1AF19F72B28003543C3 /* DismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissDetailTransition.m; sourceTree = "<group>"; };
+		9CF6A55D1FC24FBDB3C652EE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC078F18253D4C07967A2925 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56548145A57E46E3A6707962 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +89,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		546F3282A2ED499CBB1665E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CF6A55D1FC24FBDB3C652EE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6577B16419F70801003543C3 = {
 			isa = PBXGroup;
 			children = (
+				6577B19F19F7131B003543C3 /* Podfile */,
+				6577B1A019F7131B003543C3 /* TemplateIcon2x.png */,
 				6577B16F19F70801003543C3 /* GoogleImageSearch */,
 				6577B18919F70801003543C3 /* GoogleImageSearchTests */,
 				6577B16E19F70801003543C3 /* Products */,
+				EC078F18253D4C07967A2925 /* Pods.xcconfig */,
+				546F3282A2ED499CBB1665E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,12 +124,26 @@
 			children = (
 				6577B17419F70801003543C3 /* AppDelegate.h */,
 				6577B17519F70801003543C3 /* AppDelegate.m */,
-				6577B17719F70801003543C3 /* ViewController.h */,
-				6577B17819F70801003543C3 /* ViewController.m */,
 				6577B17A19F70801003543C3 /* Main.storyboard */,
+				6577B19619F70BEF003543C3 /* SearchViewController.h */,
+				6577B19919F70C35003543C3 /* PhotoCollectionViewController.h */,
+				6577B19A19F70C35003543C3 /* PhotoCollectionViewController.m */,
+				6577B19719F70BEF003543C3 /* SearchViewController.m */,
 				6577B17D19F70801003543C3 /* Images.xcassets */,
 				6577B17F19F70801003543C3 /* LaunchScreen.xib */,
 				6577B17019F70801003543C3 /* Supporting Files */,
+				6577B19C19F70D9E003543C3 /* ImageCell.h */,
+				6577B19D19F70D9E003543C3 /* ImageCell.m */,
+				6577B1A319F713FB003543C3 /* PhotoPickerViewController.h */,
+				6577B1A419F713FB003543C3 /* PhotoPickerViewController.m */,
+				6577B1A619F72683003543C3 /* DetailViewController.h */,
+				6577B1A719F72683003543C3 /* DetailViewController.m */,
+				6577B1A919F727D0003543C3 /* ImageController.h */,
+				6577B1AA19F727D0003543C3 /* ImageController.m */,
+				6577B1AC19F72B28003543C3 /* PresentDetailTransition.h */,
+				6577B1AD19F72B28003543C3 /* PresentDetailTransition.m */,
+				6577B1AE19F72B28003543C3 /* DismissDetailTransition.h */,
+				6577B1AF19F72B28003543C3 /* DismissDetailTransition.m */,
 			);
 			path = GoogleImageSearch;
 			sourceTree = "<group>";
@@ -126,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6577B19019F70801003543C3 /* Build configuration list for PBXNativeTarget "GoogleImageSearch" */;
 			buildPhases = (
+				45315607FCAE4C91BD49F9A9 /* Check Pods Manifest.lock */,
 				6577B16919F70801003543C3 /* Sources */,
 				6577B16A19F70801003543C3 /* Frameworks */,
 				6577B16B19F70801003543C3 /* Resources */,
+				284F46C63672485A98B45937 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +256,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6577B1A219F7131B003543C3 /* TemplateIcon2x.png in Resources */,
 				6577B17C19F70801003543C3 /* Main.storyboard in Resources */,
 				6577B18119F70801003543C3 /* LaunchScreen.xib in Resources */,
+				6577B1A119F7131B003543C3 /* Podfile in Resources */,
 				6577B17E19F70801003543C3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,14 +273,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		284F46C63672485A98B45937 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45315607FCAE4C91BD49F9A9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6577B16919F70801003543C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6577B17919F70801003543C3 /* ViewController.m in Sources */,
 				6577B17619F70801003543C3 /* AppDelegate.m in Sources */,
+				6577B1A519F713FB003543C3 /* PhotoPickerViewController.m in Sources */,
+				6577B19E19F70D9E003543C3 /* ImageCell.m in Sources */,
+				6577B1AB19F727D0003543C3 /* ImageController.m in Sources */,
+				6577B1B019F72B28003543C3 /* PresentDetailTransition.m in Sources */,
+				6577B19819F70BEF003543C3 /* SearchViewController.m in Sources */,
 				6577B17319F70801003543C3 /* main.m in Sources */,
+				6577B19B19F70C35003543C3 /* PhotoCollectionViewController.m in Sources */,
+				6577B1A819F72683003543C3 /* DetailViewController.m in Sources */,
+				6577B1B119F72B28003543C3 /* DismissDetailTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +440,7 @@
 		};
 		6577B19119F70801003543C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC078F18253D4C07967A2925 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleImageSearch/Info.plist;
@@ -351,6 +451,7 @@
 		};
 		6577B19219F70801003543C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC078F18253D4C07967A2925 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoogleImageSearch/Info.plist;
@@ -412,6 +513,7 @@
 				6577B19219F70801003543C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6577B19319F70801003543C3 /* Build configuration list for PBXNativeTarget "GoogleImageSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +522,7 @@
 				6577B19519F70801003543C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

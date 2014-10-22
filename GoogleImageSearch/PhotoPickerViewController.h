@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoPickerViewController.h
 //  GoogleImageSearch
 //
 //  Created by Daniel on 10/21/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PhotoPickerViewController : UIViewController
 
 @end
-

@@ -1,0 +1,2 @@
+pod 'DZNPhotoPickerController'
+pod 'SAMCache'
